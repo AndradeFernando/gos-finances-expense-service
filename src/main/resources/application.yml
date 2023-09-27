@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://dexpense:dexpense@localhost:27017/?authSource=gos-expense&readPreference=primary
+      database: gos-expense
